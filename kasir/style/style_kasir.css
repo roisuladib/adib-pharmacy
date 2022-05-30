@@ -1,0 +1,154 @@
+.b-12 {
+   border-radius: 12px !important;
+}
+.b-20 {
+   border-radius: 20px !important;
+}
+.b-h-12 {
+   border-radius: 10px 10px 0px 0px !important;
+}
+.b-h-20 {
+   border-radius: 20px 20px 0px 0px !important;
+}
+.title-modal {
+   background: #ff5c84;
+}
+.title-modal h5 {
+   font-size: 22px !important;
+   color: #fff;
+}
+.lblInput {
+   font-size: 16px !important;   
+}
+.box-shadow-none {
+   box-shadow: none !important;
+}
+.border-none{
+   border: none;
+}
+.dataTables_filter input {
+   border-radius: 20px !important;         
+}
+.btnMyPro {
+   background: #ff5c84;
+   color: #fff;
+   border-radius:20px;   
+}
+.btnMyPro:hover {
+   background: rgb(236, 95, 131);
+   color: #fff;   
+}
+.btn-sape {
+   color: #fff;
+   border-radius:20px;
+   background: #03ac0e;   
+}
+.btn-sape:hover {
+   color: #fff;
+   background: #008a09;
+}
+.btn-tutup {
+   color: #fff;
+   border-radius: 20px;
+   background: #ff3a3a;
+}
+
+.btn-tutup:hover {
+   color: #fff;
+   background: #d43232;
+}
+table tr td {
+   vertical-align: middle !important;
+}
+
+/* Footer */
+footer {
+   position: relative;
+   width: 100%;
+   background-color: #3586ff;
+   min-height: 100px;
+   padding: 20px 10px 0px 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+footer .social_icon {
+   margin-bottom: 8;
+   padding: 0;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+footer .social_icon li {
+   list-style: none;
+}
+footer .social_icon li a {
+   font-size: 2em;
+   color: #ffffff;
+   margin: 0 6px;
+   display: inline-block;
+   transition: 0.5s;
+}      
+footer .social_icon li a:hover {
+   transform: translateY(-10px);
+}
+footer p {
+   color: #ffffff;
+   text-align: center;
+   margin-top: -15px;         
+   margin-bottom: 20px;
+   font-size: 1.1em;
+}
+footer .wave {
+   position: absolute;
+   top: -98px;
+   left: 0;
+   width: 100%;
+   height: 100px;
+   background: url(wave.png);
+   background-size: 1000px 100px;
+}
+footer .wave#wave1 {
+   z-index: 1000;
+   opacity: 1;
+   bottom: 0;
+   animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2 {
+   z-index: 999;
+   opacity: 0.5;
+   bottom: 10px;
+   animation: animateWave01 4s linear infinite;
+}
+footer .wave#wave3 {
+   z-index: 1000;
+   opacity: 0.2;
+   bottom: 15;
+   animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4 {
+   z-index: 999;
+   opacity: 0.7;
+   bottom: 20px;
+   animation: animateWave01 3s linear infinite;
+}
+
+@keyframes animateWave {
+   0% {
+      background-position-x: 1000px;
+   }
+   100% {
+      background-position-x: 0;
+   }
+}
+@keyframes animateWave01 {
+   0% {
+      background-position-x: 0px;
+   }
+   100% {
+      background-position-x: 1000px;
+   }
+}
